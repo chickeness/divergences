@@ -473,7 +473,6 @@
 		add_homeland = lusitanian
 		add_homeland = mexican
 		add_homeland = afro_latino
-		add_homeland = oodham
 	}
 	s:STATE_TEJAS = {
 		create_state = {
@@ -599,7 +598,6 @@
 		
 		add_homeland = central_american
 		add_homeland = afro_latino
-		add_homeland = miskito
 	}
 	s:STATE_COSTA_RICA = {
 		create_state = {
