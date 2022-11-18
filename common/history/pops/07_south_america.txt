@@ -668,6 +668,11 @@
 				culture = afro_frankish
 				size = 378816
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_frankish
+				size = 86192
+			}
 		}
 	}
 	s:STATE_COTE_DU_CAFE = {
@@ -688,7 +693,11 @@
 						catholic = 0.55
 						protestant = 0.45
 					}
-				}
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_frankish
+				size = 59689
 			}
 		}
 	}
@@ -701,6 +710,11 @@
 			create_pop = {
 				culture = afro_frankish
 				size = 199068
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_frankish
+				size = 46080
 			}
 		}
 	}
@@ -723,6 +737,11 @@
 				size = 11212
 				#religion = animist
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_frankish
+				size = 33946
+			}
 		}
 	}
 	s:STATE_MONTS_DIAMANTS = {
@@ -738,6 +757,11 @@
 			create_pop = {
 				culture = tupinamba
 				size = 3720
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_frankish
+				size = 27070
 			}
 		}
 	}
@@ -755,6 +779,11 @@
 				culture = afro_frankish
 				size = 119368
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_frankish
+				size = 18270
+			}
 		}
 	}
 	s:STATE_VAURA = {
@@ -770,6 +799,11 @@
 			create_pop = {
 				culture = lotharian
 				size = 3508
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = afro_frankish
+				size = 6590
 			}
 		}
 	}
