@@ -36,6 +36,7 @@ dvg_hbe.1 = {
 				name = dvg_nightmare_in_the_west
 				months = long_modifier_time
 			}
+		default_option = yes
 		
 		create_diplomatic_play = {
 			target_country = c:HBE
