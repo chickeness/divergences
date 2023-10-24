@@ -486,7 +486,7 @@ dvg_leeuwin.12 = {
 	flavor = dvg_leeuwin.12.f
 
 	event_image = {
-		video = "southamerica_christianity"
+		video = "votp_monarch_holding_court"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -519,7 +519,7 @@ dvg_leeuwin.12 = {
 				charismatic
 				experienced_offensive_planner
 				celebrity_commander	
-				experienced_political_operator	
+				expert_political_operator	
 			}
 		}
         ai_chance = {
@@ -548,37 +548,10 @@ dvg_leeuwin.13 = {
 	duration = 1
 
 	trigger = {
-		c:LEW = {
-			ruler = {
-				NOT = { has_variable = is_aloysius }
-			}
-		}
 	}
 
 	option = {
 	name = dvg_leeuwin.13.a
-		hidden_effect = { 
-			ruler = { 
-				kill_character = yes
-			}
-		}
-		create_character = {
-			first_name = Aloysius
-			last_name = van_Afrika
-			ruler = yes
-			is_general = yes
-			birth_date = 1810.5.19
-			dna = dna_aloysius_van_afrika_king
-			interest_group = ig_armed_forces
-			ideology = ideology_jingoist_leader
-			traits = {
-				imperious
-				charismatic
-				experienced_offensive_planner
-				celebrity_commander	
-				experienced_political_operator	
-			}
-		}
         ai_chance = {
 			base = 1
 		}
