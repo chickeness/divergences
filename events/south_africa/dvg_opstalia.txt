@@ -22,18 +22,28 @@ dvg_opstalia.1 = {
 	trigger = {
 	}
 
-	immediate = {
-		add_modifier = {
-            name = dvg_kommandos
-        }
-        add_modifier = {
-            name = dvg_grondraad
-        }
-        root = {
-        	ruler = {
-        		save_scope_as = is_hendrik 
-        	}
-        }
+immediate = {
+
+	add_modifier = {
+		name = dvg_kommandos
+	}
+	add_modifier = {
+		name = dvg_grondraad
+	}
+	root = {
+		ruler = {
+			save_scope_as = is_hendrik 
+		}
+	}
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
 	}
 
 	option = {
@@ -68,6 +78,33 @@ dvg_opstalia.2 = {
 
 	trigger = {
 	}
+
+immediate = {
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
+		ig:ig_armed_forces = {
+			save_scope_as = armed_forces
+			leader = {
+				save_scope_as = scope_diereckx
+			}
+		
+	}
+	ig:ig_landowners = {
+		save_scope_as = grondraad_ig
+		leader = {
+			save_scope_as = landowners_leader
+		}
+	}
+}
+
+
 
 	option = {
 		name = dvg_opstalia.2.a
@@ -106,6 +143,30 @@ dvg_opstalia.3 = {
 	trigger = {
 
 	}
+	immediate = {
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
+		ig:ig_armed_forces = {
+			save_scope_as = armed_forces
+			leader = {
+				save_scope_as = scope_diereckx
+			}
+		
+	}
+	ig:ig_landowners = {
+		save_scope_as = grondraad_ig
+		leader = {
+			save_scope_as = landowners_leader
+		}
+	}
+}
 
 	option = {
 		name = dvg_opstalia.3.a
@@ -138,6 +199,20 @@ dvg_opstalia.4 = {
 
 	trigger = {
 	}
+
+immediate = {
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
+	}
+
+
 
 	option = { #demand the land
 	name = dvg_opstalia.4.a
@@ -217,6 +292,20 @@ dvg_opstalia.5 = {
 	trigger = {
 	}
 
+immediate = {
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
+	}
+
+
+
 	option = { #war
 		name = dvg_opstalia.5.a
 		default_option = yes
@@ -284,6 +373,20 @@ dvg_opstalia.6 = {
 
 	trigger = {
 	}
+
+immediate = {
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
+	}
+
+
 
 	option = {
 	name = dvg_opstalia.6.a
@@ -431,6 +534,26 @@ dvg_opstalia.9 = {
 	trigger = {
 	}
 
+immediate = {
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
+		ig:ig_armed_forces = {
+			save_scope_as = kommandos_ig
+			leader = {
+				save_scope_as = kommandos_leader
+			}
+		}
+	}
+
+
+
 	immediate = {
 		set_variable = hendrik_lost
 	}
@@ -505,6 +628,18 @@ dvg_opstalia.10 = {
 
 	immediate = {
 		set_variable = hendrik_dead
+		ig:ig_landowners = {
+			save_scope_as = grondraad_ig
+			leader = {
+				save_scope_as = landowners_leader
+			}
+		}
+		ig:ig_armed_forces = {
+			save_scope_as = kommandos_ig
+			leader = {
+				save_scope_as = kommandos_leader
+			}
+		}
 	}
 
 	option = {
@@ -558,6 +693,32 @@ dvg_opstalia.11 = {
 
 	trigger = {
 	}
+
+immediate = {
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
+		ig:ig_landowners = {
+			save_scope_as = grondraad_ig
+			leader = {
+				save_scope_as = landowners_leader
+			}
+		}
+		ig:ig_armed_forces = {
+			save_scope_as = kommandos_ig
+			leader = {
+				save_scope_as = kommandos_leader
+			}
+		}
+	}
+
+
 
 	option = { #leave them
 	name = dvg_opstalia.11.a
@@ -615,6 +776,20 @@ dvg_opstalia.12 = {
 
 	trigger = {
 	}
+
+immediate = {
+		c:LEW = { save_scope_as = scope_LEW }
+		c:BRG = { save_scope_as = scope_BRG }
+		c:OPS = { save_scope_as = scope_OPS }
+		c:NFL = { save_scope_as = scope_NFL }
+		c:VRY = { save_scope_as = scope_VRY }
+		c:XHO = { save_scope_as = scope_XHO }
+		c:ZUL = { save_scope_as = scope_ZUL }
+		c:BST = { save_scope_as = scope_BST }
+		c:SUA = { save_scope_as = scope_SUA }
+	}
+
+
 
 	immediate = {
 		set_variable = hendrik_won
