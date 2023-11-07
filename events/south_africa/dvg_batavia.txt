@@ -91,7 +91,7 @@ dvg_batavia.2 = {
 		set_capital = s:STATE_LOURENCO_MARQUES
 	}	
 	option = { #Ville du Cap
-	name = dvg_batavia.2.d
+	name = dvg_batavia.2.e
 		trigger = {
 			AND = {
 				c:root = {
@@ -107,7 +107,7 @@ dvg_batavia.2 = {
 		set_capital = s:STATE_CAPE_COLONY
 	}
 	option = { #Vlinderveer
-	name = dvg_batavia.2.e
+	name = dvg_batavia.2.f
 		set_capital = s:STATE_VRYSTAAT
 	}
 }
