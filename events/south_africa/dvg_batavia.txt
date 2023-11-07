@@ -93,11 +93,18 @@ dvg_batavia.2 = {
 	option = { #Ville du Cap
 	name = dvg_batavia.2.d
 		trigger = {
-			c:root = {
-				has_state_in_state_region = s:STATE_CAPE_COLONY
+			AND = {
+				c:root = {
+					has_state_in_state_region = s:STATE_CAPE_COLONY
+				}
+				c:CAP = {
+					NOT = {
+						has_state_in_state_region = s:STATE_CAPE_COLONY
+					}
+				}
 			}
-		set_capital = s:STATE_CAPE_COLONY
 		}
+		set_capital = s:STATE_CAPE_COLONY
 	}
 	option = { #Vlinderveer
 	name = dvg_batavia.2.e
