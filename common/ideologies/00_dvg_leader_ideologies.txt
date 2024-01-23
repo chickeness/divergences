@@ -36,10 +36,11 @@
 	}
 }
 
-ideology_trekker = {
-	icon = "gfx/interface/icons/ideology_icons/leader_frontier_expansionist.dds"
+ideology_trekker_leader = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader_frontier_expansionist.dds"
 	
 	lawgroup_colonization = {
+		law_frontier_colonization = strongly_approve
 		law_no_colonial_affairs = disapprove
 		law_colonial_resettlement = approve
 		law_colonial_exploitation = disapprove
@@ -57,5 +58,30 @@ ideology_trekker = {
 		law_commercialized_agriculture = approve
 		law_homesteading = strongly_approve
 		law_collectivized_agriculture = disapprove
+	}
+
+	possible = {
+		limit = {
+			ROOT = {
+				OR = {
+					c:OPS
+					c:LEW
+					c:BTV
+				}
+			}
+		}
+	}
+	
+	leader_weight = {
+		value = 25
+		if = {
+			limit = { scope:interest_group = { is_interest_group_type = ig_armed_forces } }
+			add = 25		
+		}		
+		if = {
+			limit = { scope:interest_group = { is_interest_group_type = ig_rural_folk } }
+			add = 50		
+		}
+		
 	}
 }

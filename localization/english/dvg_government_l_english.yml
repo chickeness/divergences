@@ -31,7 +31,7 @@
 
  gov_red_sultanate_desc: "The Sultanate of Zhusha has been in existence for hundreds of years, and with time, the Sultans came to be known as the Red Sultans."
  gov_vrystaat:0 "Vrystaat"
- gov_vrystaat_desc:0 "A [concept_government] of European settlers, with power centralised under a [Concept('concept_ruler','$RULER_TITLE_HOOFKOMMANDANT$')]."
+ gov_vrystaat_desc:0 "A [concept_government] of European settlers, with power held largely by landowners and local militias, under command of the [Concept('concept_ruler','$RULER_TITLE_HOOFKOMMANDANT$')]."
 
  gov_hereditary_dictatorship: "Hereditary Dictatorship"
  gov_hereditary_dictatorship_desc: "A government that is a republic in name only. In practice, the country favors nepotism and leadership has a heredity transfer of power."

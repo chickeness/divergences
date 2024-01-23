@@ -2648,7 +2648,11 @@
 			
 			create_pop = {
 				culture = bastaard
-				size = 20000
+				size = 17525
+			}
+			create_pop = {
+				culture = boer
+				size = 3465
 			}
 		}
 	}
