@@ -1270,7 +1270,7 @@
 	
 	#Scotland
 	s:STATE_HIGHLANDS = {
-		region_state:SCO = {
+		region_state:SCA = {
 			create_pop = {
 				culture = scottish
 				size = 568435
@@ -1296,7 +1296,7 @@
 		}
 	}
 	s:STATE_LOWLANDS = {
-		region_state:SCO = {
+		region_state:SCA = {
 			create_pop = {
 				culture = scottish
 				size = 1199723
